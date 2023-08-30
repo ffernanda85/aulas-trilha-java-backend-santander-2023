@@ -13,34 +13,26 @@ public class SmartTv {
     }
 
     public void upVolume() {
-        if(on){
-            if(volume < 100){
-                volume++;
-            } 
+        if(on && volume < 100){
+            volume++;
         }
     }
 
     public void downVolume() {
-        if(on){
-            if(volume >= 1){
-                volume--;
-            } 
+        if(on && volume >= 1){
+            volume--;
         }
     }
 
     public void upChannel() {
-        if(on){
-            if(channel < 999){
-                channel++;
-            } 
+        if(on && channel < 999){
+            channel++;
         }
     }
 
     public void downChannel() {
-        if(on){
-            if(channel > 1){
-                channel--;
-            } 
+        if(on && channel > 1){
+            channel--;
         }
     }
 
