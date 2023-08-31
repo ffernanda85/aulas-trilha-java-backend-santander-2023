@@ -1,3 +1,5 @@
+package dir.aulas.methods;
+
 public class User {
     public static void main(String[] args) throws Exception {
         

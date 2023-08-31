@@ -1,3 +1,5 @@
+package dir.aulas.methods;
+
 public class SmartTv {
     
     boolean on = false;
